@@ -1,0 +1,636 @@
+{
+  "business": {
+    "name": "Apex Hvac",
+    "phone": "555-hva-r92",
+    "category": "hvac",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  "design": {
+    "preset": {
+      "id": "hvac-red-charge",
+      "categoryGroup": "hvac",
+      "name": "Red Charge",
+      "recipeFile": "hvac/red-charge.astro",
+      "colors": {
+        "primary": "#2563EB",
+        "primaryDark": "#1E40AF",
+        "primaryLight": "#c9d8fa",
+        "secondary": "#2159d4",
+        "accent": "#EF4444",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#2563EB",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "hvac/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Phoenix's Trusted HVAC Experts",
+      "heroSubline": "Keeping your home comfortable year-round in the Valley's extreme heat. Family-owned and serving the Phoenix metro since 2012.",
+      "aboutTitle": "Why Choose Apex HVAC",
+      "aboutText": [
+        "Founded in 2012, Apex HVAC started as a small family business with a mission to provide reliable cooling solutions for Phoenix residents. Over the years, we've grown to become one of the most trusted HVAC companies in Maricopa County.",
+        "We take pride in our honest assessments, transparent pricing, and workmanship that stands up to 115°F summers. Every technician is background-checked and trained specifically for Southwest climate challenges.",
+        "As locals ourselves, we're committed to supporting our community. From sponsoring little league teams to offering senior discounts, we believe in giving back to the neighborhoods we serve."
+      ],
+      "valueProps": [
+        {
+          "title": "24/7 Emergency Service",
+          "description": "When your AC fails at 3pm in July, we'll be there - no extra charges for nights or weekends."
+        },
+        {
+          "title": "Desert-Tested Equipment",
+          "description": "We only install systems specifically designed to handle Phoenix's extreme heat and dust storms."
+        },
+        {
+          "title": "Local Knowledge",
+          "description": "From stucco homes to tile roofs, we understand Phoenix housing and how it affects your HVAC needs."
+        },
+        {
+          "title": "No Pressure Guarantee",
+          "description": "Honest recommendations without the hard sell - we'll tell you exactly what you need, nothing more."
+        }
+      ],
+      "ctaHeadline": "Beat the Heat Before It Hits",
+      "ctaSubline": "Schedule your pre-summer tune-up today and avoid breakdowns during peak season."
+    },
+    "services": [
+      {
+        "slug": "ac-installation",
+        "name": "AC Installation",
+        "shortDescription": "Professional installation of high-efficiency cooling systems built for Phoenix summers.",
+        "description": "When your old AC can't keep up with another 110°F summer, our team installs premium systems specifically engineered for desert climates. We evaluate your home's unique needs - from square footage to insulation quality - before recommending the perfect unit.\n\nUnlike big box stores, we handle everything from proper sizing to ductwork modifications. All installations include a 10-year parts warranty and 2-year labor guarantee. We only work with top manufacturers like Trane and Carrier that build units tested in Arizona's extreme conditions.\n\nAfter installation, we'll walk you through your new system's features and provide maintenance tips to maximize its lifespan in our harsh climate.",
+        "process": [
+          "Step 1: Free in-home assessment including load calculation and duct inspection",
+          "Step 2: Custom system recommendation with 3 options at different price points",
+          "Step 3: Professional installation by licensed technicians",
+          "Step 4: Thorough testing and customer orientation"
+        ],
+        "benefits": [
+          "Systems sized specifically for your home",
+          "Energy Star certified options available",
+          "Quieter operation than older units",
+          "Smart thermostat compatibility"
+        ],
+        "faq": [
+          {
+            "question": "How long does a new AC installation take?",
+            "answer": "Most residential installations are completed in 6-8 hours. We work efficiently to minimize your time without AC, especially during hot months."
+          },
+          {
+            "question": "What size unit do I need for my Phoenix home?",
+            "answer": "Square footage is just one factor - we also consider insulation, window types, and shade coverage. Oversized units actually perform worse in our climate."
+          },
+          {
+            "question": "Do you offer financing for new AC systems?",
+            "answer": "Yes, we partner with several lenders offering low-interest options with approved credit. Many homeowners qualify for 0% APR for 12-24 months."
+          }
+        ]
+      },
+      {
+        "slug": "hvac-maintenance",
+        "name": "HVAC Maintenance",
+        "shortDescription": "Preventative care to keep your system running efficiently through brutal Phoenix summers.",
+        "description": "Phoenix's extreme heat and dust storms put extraordinary strain on HVAC systems. Our bi-annual maintenance plans are designed specifically for Valley homeowners to prevent costly breakdowns when you need cooling most.\n\nEach visit includes 32-point inspection and service: cleaning condenser coils clogged with desert dust, checking refrigerant levels, testing electrical components, and calibrating thermostats. We'll alert you to minor issues before they become major repairs.\n\nSpring tune-ups are especially critical to prepare systems for summer stress. Fall checkups help identify any wear from the punishing season. Maintenance plan members receive priority scheduling and 15% discounts on repairs.",
+        "process": [
+          "Step 1: Comprehensive system inspection and performance testing",
+          "Step 2: Cleaning of all critical components",
+          "Step 3: Lubrication of moving parts and electrical safety checks",
+          "Step 4: Detailed report with recommendations"
+        ],
+        "benefits": [
+          "Extends system lifespan by 3-5 years",
+          "Maintains peak energy efficiency",
+          "Reduces emergency repair needs by 80%",
+          "Priority service for plan members"
+        ],
+        "faq": [
+          {
+            "question": "How often should I service my AC in Phoenix?",
+            "answer": "We recommend twice yearly - before summer (March-April) and after peak season (October-November). Systems work much harder here than in milder climates."
+          },
+          {
+            "question": "What's included in a maintenance visit?",
+            "answer": "Full system inspection, coil cleaning, refrigerant check, thermostat calibration, electrical testing, and detailed report with photos of any concerns."
+          },
+          {
+            "question": "Can maintenance really lower my energy bills?",
+            "answer": "Absolutely. A dirty system can use 15-20% more energy. Proper maintenance keeps it running at peak efficiency despite our extreme temperatures."
+          }
+        ]
+      },
+      {
+        "slug": "duct-cleaning",
+        "name": "Duct Cleaning",
+        "shortDescription": "Removing dust, allergens and debris from your home's air ducts for better indoor air quality.",
+        "description": "Phoenix's frequent dust storms and construction activity mean your ducts accumulate more debris than most areas. Our thorough cleaning process removes built-up dust, pollen, and contaminants that reduce air quality and strain your HVAC system.\n\nUsing truck-mounted HEPA filtration systems, we clean every component of your ductwork including supply and return vents, registers, grilles, and the air handler. This is especially important for homes with allergy sufferers or after remodeling projects.\n\nWe also inspect for leaks that waste cooled air - a common issue in older Phoenix homes. Sealing these can improve efficiency by up to 20% in our climate. All work is backed by a satisfaction guarantee and includes before/after photos.",
+        "process": [
+          "Step 1: Full system inspection with camera where accessible",
+          "Step 2: Containment setup to prevent dust spread",
+          "Step 3: Powerful vacuum extraction of all ducts",
+          "Step 4: Sanitizing treatment (optional) and final inspection"
+        ],
+        "benefits": [
+          "Reduces dust circulating in your home",
+          "Helps allergy and asthma sufferers",
+          "Improves HVAC efficiency",
+          "Eliminates musty odors from ducts"
+        ],
+        "faq": [
+          {
+            "question": "How often should ducts be cleaned in Phoenix?",
+            "answer": "Every 3-5 years for most homes, more often if you're near construction, have pets, or family members with respiratory issues."
+          },
+          {
+            "question": "Will cleaning my ducts lower my AC bills?",
+            "answer": "Yes - cleaner ducts improve airflow, allowing your system to work more efficiently. In our heat, even small improvements add up."
+          },
+          {
+            "question": "Do you clean dryer vents too?",
+            "answer": "Yes, we offer combo services. Clogged dryer vents are a major fire hazard and especially problematic in our dusty environment."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-repairs",
+        "name": "Emergency Repairs",
+        "shortDescription": "24/7 urgent service when your AC fails during Phoenix's brutal heat waves.",
+        "description": "When your AC quits during a 115°F heatwave, every minute counts. Our emergency team is available 24/7/365 with rapid response times across the Valley. We keep trucks stocked with common parts to make same-day repairs whenever possible.\n\nPhoenix's extreme temperatures cause unique failures - from cracked heat exchangers to refrigerant leaks. Our technicians are specially trained to diagnose and fix these desert-specific issues quickly. We'll explain the problem in plain terms and provide transparent pricing before any work begins.\n\nEven if we can't complete a full repair immediately, we'll implement temporary solutions to get some cooling back until parts arrive. Emergency service customers receive follow-up visits to ensure everything is working perfectly.",
+        "process": [
+          "Step 1: Immediate phone diagnosis when possible",
+          "Step 2: Technician dispatched within 2 hours (daytime)",
+          "Step 3: On-site evaluation and repair estimate",
+          "Step 4: Repair with temporary solution if needed"
+        ],
+        "benefits": [
+          "Average 90-minute response time",
+          "No overtime charges for nights/weekends",
+          "Honest assessments - we won't upsell",
+          "Follow-up inspection included"
+        ],
+        "faq": [
+          {
+            "question": "What's considered an HVAC emergency in Phoenix?",
+            "answer": "Any complete cooling failure when temps exceed 90°F, refrigerant leaks, electrical issues, or anything risking further damage to the system."
+          },
+          {
+            "question": "Do you charge more for emergency service?",
+            "answer": "We charge a modest after-hours dispatch fee, but our repair rates remain the same 24/7. No surprise price hikes when you're desperate."
+          },
+          {
+            "question": "Can you help if my AC is just blowing warm air?",
+            "answer": "Absolutely - this is one of our most common emergency calls. Causes range from refrigerant leaks to compressor failures, all repairable by our team."
+          }
+        ]
+      },
+      {
+        "slug": "smart-thermostats",
+        "name": "Smart Thermostats",
+        "shortDescription": "Energy-saving smart thermostat installation and programming for Phoenix homes.",
+        "description": "Modern smart thermostats can save Phoenix homeowners up to 20% on cooling costs by optimizing temperature settings for our extreme climate. We install and program all major brands including Nest, Ecobee, and Honeywell.\n\nOur technicians will assess your home's layout, Wi-Fi strength, and HVAC system compatibility to recommend the best model. Proper installation is crucial - we ensure your thermostat is correctly wired and located away from heat sources that could affect readings.\n\nAfter installation, we'll program it with Phoenix-specific settings like:\n- Automatic adjustment during peak rate hours\n- Vacation modes that prevent overcooling empty homes\n- Monsoon season humidity controls\n- Remote access so you can adjust while away\n\nWe also offer free seasonal checkups to adjust programming as temperatures change.",
+        "process": [
+          "Step 1: System compatibility check and Wi-Fi assessment",
+          "Step 2: Safe removal of old thermostat",
+          "Step 3: Professional installation and testing",
+          "Step 4: Custom programming and user training"
+        ],
+        "benefits": [
+          "Significant energy bill savings",
+          "Remote control from your phone",
+          "Automatic seasonal adjustments",
+          "Compatible with most HVAC systems"
+        ],
+        "faq": [
+          {
+            "question": "Will a smart thermostat work with my older AC unit?",
+            "answer": "Most systems from the 1990s onward are compatible. We'll check your wiring during the free assessment."
+          },
+          {
+            "question": "How much can I really save in Phoenix?",
+            "answer": "Typical savings range from 10-20% annually by avoiding overcooling and optimizing for time-of-use rates."
+          },
+          {
+            "question": "Do you offer rebate assistance?",
+            "answer": "Yes, we help customers navigate APS and SRP rebate programs that can cover up to $100 of the cost."
+          }
+        ]
+      },
+      {
+        "slug": "indoor-air-quality",
+        "name": "Indoor Air Quality",
+        "shortDescription": "Solutions for cleaner, healthier air in your Phoenix home year-round.",
+        "description": "Between dust storms, pollution, and pollen, Phoenix has some of the most challenging air quality in the nation. Our whole-home solutions go beyond basic filters to create healthier indoor environments.\n\nWe start with a comprehensive air quality assessment measuring particulates, humidity levels, and VOC concentrations. Based on results, we may recommend:\n- High-efficiency particulate air (HEPA) filtration systems\n- UV light sanitizers that kill mold and bacteria\n- Whole-home humidifiers for dry winter months\n- Advanced ventilation systems that bring in fresh air without losing cooled air\n\nMany newer Phoenix homes are built so tightly that indoor pollutants become trapped. Our solutions balance energy efficiency with healthy air exchange. We also offer special packages for homes near construction sites or busy roads.",
+        "process": [
+          "Step 1: Indoor air quality testing and assessment",
+          "Step 2: Custom solution recommendation",
+          "Step 3: Professional installation with minimal disruption",
+          "Step 4: Follow-up testing to verify improvements"
+        ],
+        "benefits": [
+          "Reduces allergy and asthma triggers",
+          "Minimizes dust accumulation",
+          "Controls humidity levels",
+          "Removes odors and VOCs"
+        ],
+        "faq": [
+          {
+            "question": "How often should I change my HVAC filter in Phoenix?",
+            "answer": "Every 1-2 months during dusty seasons. We can install larger capacity filters that last longer while capturing more particles."
+          },
+          {
+            "question": "Will air purifiers help with monsoon mold?",
+            "answer": "Yes, especially when combined with humidity control. Monsoon season brings spikes in mold spores that aggravate allergies."
+          },
+          {
+            "question": "Are whole-home systems better than portable units?",
+            "answer": "For most Phoenix homes, yes. They're more effective, quieter, and don't take up living space. We can integrate them with your existing HVAC."
+          }
+        ]
+      },
+      {
+        "slug": "heat-pump-installation",
+        "name": "Heat Pump Installation",
+        "shortDescription": "Energy-efficient heating and cooling solutions for Phoenix's mild winters.",
+        "description": "While Phoenix winters are mild, traditional furnaces are often overkill for our climate. Modern heat pumps provide efficient heating during our brief cold snaps while serving as your primary cooling system in summer.\n\nWe specialize in installing high-efficiency heat pumps specifically designed for the Southwest. Unlike older models, today's units perform well even during our hottest months while providing comfortable heat on the coldest winter nights (which rarely dip below freezing).\n\nHeat pumps can reduce your annual energy costs by 30-40% compared to maintaining separate AC and furnace systems. We carefully size units to ensure they meet both your cooling and minimal heating needs without unnecessary capacity. All installations include a 10-year parts warranty and smart thermostat integration.",
+        "process": [
+          "Step 1: Detailed home evaluation and heat load calculation",
+          "Step 2: System recommendation with efficiency comparisons",
+          "Step 3: Professional installation by certified technicians",
+          "Step 4: Performance testing and customer orientation"
+        ],
+        "benefits": [
+          "Year-round comfort from one system",
+          "Lower energy bills than AC+furnace",
+          "Quieter operation",
+          "Eligible for energy rebates"
+        ],
+        "faq": [
+          {
+            "question": "Are heat pumps effective in Phoenix summers?",
+            "answer": "Modern units are equally effective as traditional ACs for cooling, while providing efficient heating in winter - perfect for our climate."
+          },
+          {
+            "question": "What's the lifespan of a heat pump in Phoenix?",
+            "answer": "Properly maintained, 12-15 years - similar to traditional AC units in our harsh environment."
+          },
+          {
+            "question": "Do heat pumps work during freezing temperatures?",
+            "answer": "While we rarely see freezing temps, today's models work efficiently down to 0°F - far below what Phoenix experiences."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Megan T.",
+        "rating": 5,
+        "service": "Emergency AC Repair",
+        "text": "Our AC died during that brutal June heatwave last year. Apex had a technician to our Ahwatukee home in under 90 minutes. He diagnosed a failed capacitor and had us cooling again before dinner. No upselling, just honest service when we needed it most.",
+        "date": "2025-06-15"
+      },
+      {
+        "name": "Carlos R.",
+        "service": "AC Installation",
+        "rating": 5,
+        "text": "After getting three quotes for replacing our 20-year-old unit, Apex stood out for their knowledge of Phoenix-specific needs. They recommended a slightly smaller, more efficient unit than others suggested - and it's cooled our 1970s block home better than the old oversized one ever did. The install team was meticulous cleaning up after.",
+        "date": "2025-04-22"
+      },
+      {
+        "name": "Susan K.",
+        "service": "Duct Cleaning",
+        "text": "I've lived in Arcadia for 15 years and never had my ducts cleaned until Apex recommended it. The difference is incredible - no more dust settling everywhere within hours of cleaning. They found several leaks in our ductwork too. My allergies have improved dramatically since they did the work.",
+        "rating": 5,
+        "date": "2025-03-10"
+      },
+      {
+        "name": "James L.",
+        "service": "Smart Thermostat Installation",
+        "text": "The Ecobee thermostat Apex installed has already paid for itself in energy savings. They programmed it perfectly for our schedule and SRP's time-of-use rates. When we went on vacation last summer, being able to adjust the temp remotely prevented coming home to a sauna. Excellent service from quote to installation.",
+        "rating": 5,
+        "date": "2025-05-18"
+      },
+      {
+        "name": "Danielle P.",
+        "service": "HVAC Maintenance Plan",
+        "text": "I've been on Apex's bi-annual maintenance plan for 3 years now. Our system is 12 years old but runs like new thanks to their thorough tune-ups. They caught a small refrigerant leak last spring before it became a summer emergency. Worth every penny for peace of mind in Phoenix.",
+        "rating": 5,
+        "date": "2025-02-05"
+      },
+      {
+        "name": "Robert G.",
+        "service": "Indoor Air Quality",
+        "text": "After the haboob last fall, our whole house was gritty with dust. Apex installed a whole-home air scrubber and upgraded our filtration. Now even during dust storms, our interior air stays clean. The tech took time to explain all the options without pushing the most expensive solution.",
+        "rating": 5,
+        "date": "2025-01-30"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Phoenix HVAC Services | Apex HVAC",
+        "description": "Family-owned HVAC company serving Phoenix with AC installation, repair and maintenance since 2012. 24/7 emergency service available."
+      },
+      "about": {
+        "title": "About Apex HVAC | Phoenix HVAC Experts",
+        "description": "Learn about our Phoenix-based HVAC company's commitment to quality service and community since 2012. Family-owned and operated."
+      },
+      "services": {
+        "title": "Phoenix HVAC Services | AC Repair & Installation",
+        "description": "Complete HVAC services for Phoenix homes including AC installation, maintenance, duct cleaning and indoor air quality solutions."
+      },
+      "contact": {
+        "title": "Contact Apex HVAC | Phoenix HVAC Company",
+        "description": "Contact our Phoenix HVAC team for AC service requests, quotes, or questions. Serving all of Maricopa County with 24/7 availability."
+      },
+      "reviews": {
+        "title": "Apex HVAC Reviews | Phoenix Customer Feedback",
+        "description": "Read verified customer reviews from Phoenix homeowners about their experiences with Apex HVAC services and technicians."
+      },
+      "service-areas": {
+        "title": "Phoenix HVAC Service Areas | Apex HVAC",
+        "description": "Apex HVAC provides professional heating and cooling services throughout the Phoenix metro including Scottsdale, Mesa, Chandler and Gilbert."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Scottsdale",
+        "slug": "scottsdale-az",
+        "state": "AZ",
+        "content": "Apex HVAC provides top-tier heating and cooling solutions for Scottsdale's luxury estates and upscale communities. With summer temperatures frequently exceeding 110°F, reliable air conditioning isn't a luxury—it's a necessity. Our team specializes in high-efficiency HVAC systems designed to handle extreme heat while minimizing energy costs for your expansive property. We understand the unique demands of Scottsdale's Southwestern architecture and install systems that blend seamlessly with your home's aesthetic while delivering powerful performance. From routine maintenance to emergency repairs during heatwaves, we keep your indoor environment perfectly comfortable year-round.",
+        "localContext": "Scottsdale features luxury Southwestern-style homes and extreme summer heat that demands robust HVAC solutions.",
+        "nearbyAreas": [
+          "Phoenix",
+          "Paradise Valley",
+          "Fountain Hills"
+        ]
+      },
+      {
+        "city": "Mesa",
+        "slug": "mesa-az",
+        "state": "AZ",
+        "content": "Serving Mesa's predominantly stucco homes built in the 1970s-80s, Apex HVAC offers specialized solutions for older properties coping with extreme desert heat. Many Mesa homes still operate with original or outdated HVAC equipment ill-equipped for today's hotter summers. We provide system upgrades tailored to stucco construction, improving airflow and insulation while maintaining your home's character. Our ductwork services address common issues in these properties, from leaky vents to inadequate airflow distribution. Whether you need a complete system replacement or just seasonal maintenance before temperatures soar past 110°F, we'll keep your Mesa home comfortable.",
+        "localContext": "Mesa's 1970s-80s stucco homes often require HVAC updates to handle modern extreme heat conditions.",
+        "nearbyAreas": [
+          "Gilbert",
+          "Tempe",
+          "Apache Junction"
+        ]
+      },
+      {
+        "city": "Chandler",
+        "slug": "chandler-az",
+        "state": "AZ",
+        "content": "Apex HVAC delivers specialized HVAC services for Chandler's planned communities developed in the 1990s-2000s. These neighborhoods often feature similar home designs with centralized air systems facing identical wear patterns. We offer community-focused maintenance plans to keep entire subdivisions running efficiently through brutal Arizona summers. Our technicians are experts in servicing the specific HVAC models commonly installed during Chandler's growth period. From smart thermostat integration to zoning solutions for your open-concept floor plan, we provide upgrades that match Chandler's modern lifestyle while combating extreme heat.",
+        "localContext": "Chandler's 1990s-2000s planned communities benefit from HVAC solutions designed for uniform neighborhood needs.",
+        "nearbyAreas": [
+          "Gilbert",
+          "Sun Lakes",
+          "Ahwatukee"
+        ]
+      },
+      {
+        "city": "Gilbert",
+        "slug": "gilbert-az",
+        "state": "AZ",
+        "content": "For Gilbert's newer construction homes (2000s-2020s), Apex HVAC provides cutting-edge climate control solutions. While newer builds have more efficient systems, Arizona's extreme heat still causes premature wear. We specialize in extending the lifespan of modern HVAC equipment through precision maintenance and early problem detection. Our services include duct testing for energy loss, smart home integration, and high-SEER system installations perfect for Gilbert's energy-conscious homeowners. Whether it's maintaining your builder-grade system or upgrading to premium efficiency models, we'll ensure your new(er) home stays comfortable even when temperatures soar past 110°F.",
+        "localContext": "Gilbert's newer construction homes (2000s-2020s) require specialized HVAC maintenance to protect investments.",
+        "nearbyAreas": [
+          "Chandler",
+          "Queen Creek",
+          "Mesa"
+        ]
+      },
+      {
+        "city": "Tempe",
+        "slug": "tempe-az",
+        "state": "AZ",
+        "content": "Apex HVAC serves Tempe's diverse mix of university-area homes near ASU, from historic properties to modern student housing. We understand the unique HVAC needs of college rentals, faculty housing, and campus-adjacent properties facing extreme summer heat. Our services include landlord-friendly maintenance plans, quick-turnaround repairs before move-ins, and noise-reduced systems perfect for dense neighborhoods. For Tempe's older homes, we offer retrofitting solutions that improve cooling without compromising architectural integrity. Whether you're a homeowner, investor, or property manager, we'll keep your Tempe properties comfortable through every scorching summer.",
+        "localContext": "Tempe's university-area homes require versatile HVAC solutions for varied property types and renters.",
+        "nearbyAreas": [
+          "Mesa",
+          "Phoenix",
+          "Guadalupe"
+        ]
+      },
+      {
+        "city": "Phoenix",
+        "slug": "phoenix-az",
+        "state": "AZ",
+        "content": "As Phoenix's trusted HVAC experts, Apex HVAC tackles the extreme desert climate head-on. Serving the Valley's diverse housing stock - from mid-century ranch homes to downtown high-rises - we deliver custom cooling solutions for every property type. Our Phoenix-specific services include heat pump installations for milder winters, commercial refrigeration for local businesses, and 24/7 emergency repairs during dangerous heatwaves. We prioritize energy-efficient solutions to help offset Phoenix's blistering summer temperatures that regularly exceed 110°F. Whether you need preventive maintenance before summer or furnace service for those rare chilly nights, we keep Phoenix homes and businesses comfortable year-round.",
+        "localContext": "Phoenix's varied architecture and extreme heat require adaptable HVAC solutions for all property types.",
+        "nearbyAreas": [
+          "Scottsdale",
+          "Glendale",
+          "Tempe"
+        ]
+      },
+      {
+        "city": "Glendale",
+        "slug": "glendale-az",
+        "state": "AZ",
+        "content": "Apex HVAC provides comprehensive climate control solutions for Glendale's mix of historic and modern homes. From charming neighborhoods near downtown to newer developments near the sports district, we address the valley's extreme heat with targeted solutions. Many Glendale homes feature unique architectural elements that require custom HVAC approaches - we specialize in preserving character while improving efficiency. Our services include attic insulation upgrades to combat heat penetration, whole-house fan installations for cooler nights, and high-velocity systems for homes without ductwork. When temperatures soar, Glendale residents trust us to keep their homes cool and energy bills manageable.",
+        "localContext": "Glendale's blend of historic charm and modern development demands flexible HVAC solutions.",
+        "nearbyAreas": [
+          "Peoria",
+          "Phoenix",
+          "Sun City"
+        ]
+      },
+      {
+        "city": "Peoria",
+        "slug": "peoria-az",
+        "state": "AZ",
+        "content": "Serving Peoria's active retirement communities and growing family neighborhoods, Apex HVAC delivers age-appropriate comfort solutions. We understand the distinct needs of snowbird properties that sit vacant in summer and year-round homes facing extreme heat. Our services include pre-season startup checks for returning residents, specialized systems for multigenerational households, and smart humidity controls for homes near Lake Pleasant. For Peoria's newer master-planned communities, we offer whole-neighborhood maintenance programs that keep entire subdivisions running efficiently. No matter your lifestyle or home design, we'll customize an HVAC solution that handles Peoria's temperature extremes with reliability.",
+        "localContext": "Peoria's mix of retirement communities and family homes requires tailored HVAC approaches.",
+        "nearbyAreas": [
+          "Glendale",
+          "Surprise",
+          "Sun City"
+        ]
+      },
+      {
+        "city": "Surprise",
+        "slug": "surprise-az",
+        "state": "AZ",
+        "content": "Apex HVAC meets the growing demand for reliable cooling in Surprise's rapidly expanding communities. As one of Phoenix's fastest-growing suburbs, many Surprise homes feature modern HVAC systems that still need expert care to handle extreme heat. We specialize in maintaining the efficiency of newer installations while extending the life of older systems in established neighborhoods. Our Surprise services include solar-compatible HVAC options, smart home integration for tech-savvy residents, and emergency repairs during monsoon season power fluctuations. Whether you're in a new build or an original Surprise home, we'll keep your family comfortable through every season.",
+        "localContext": "Surprise's rapid growth demands HVAC services that cater to both new construction and established homes.",
+        "nearbyAreas": [
+          "Sun City West",
+          "Peoria",
+          "El Mirage"
+        ]
+      },
+      {
+        "city": "Goodyear",
+        "slug": "goodyear-az",
+        "state": "AZ",
+        "content": "Apex HVAC provides specialized services for Goodyear's blend of agricultural roots and modern suburban growth. From ranch-style homes to new master-planned communities, we deliver solutions that handle extreme heat while respecting the area's character. Many Goodyear properties benefit from our agricultural expertise, including barn cooling systems and equipment sheds climate control. For residential customers, we offer dust-resistant filters for rural areas, whole-house air purification, and energy-recovery ventilators. As Goodyear continues to grow, we remain committed to keeping both long-time residents and newcomers comfortable through the toughest Arizona summers.",
+        "localContext": "Goodyear's mix of agricultural and suburban properties requires versatile HVAC knowledge.",
+        "nearbyAreas": [
+          "Avondale",
+          "Buckeye",
+          "Litchfield Park"
+        ]
+      },
+      {
+        "city": "Avondale",
+        "slug": "avondale-az",
+        "state": "AZ",
+        "content": "Serving Avondale's working-class neighborhoods and newer developments, Apex HVAC delivers affordable comfort solutions for extreme climates. We understand the budget constraints many Avondale families face and offer cost-effective maintenance plans to prevent costly breakdowns during heatwaves. Our services include DIY maintenance coaching, high-efficiency system financing options, and emergency cooling solutions for older homes. For Avondale's new construction areas near the sports complex, we provide smart home integration and zoning systems perfect for modern lifestyles. Whether you need a simple tune-up or complete system replacement, we'll keep your Avondale home cool without breaking the bank.",
+        "localContext": "Avondale's diverse economic landscape requires HVAC solutions that balance performance and affordability.",
+        "nearbyAreas": [
+          "Goodyear",
+          "Tolleson",
+          "Litchfield Park"
+        ]
+      },
+      {
+        "city": "Buckeye",
+        "slug": "buckeye-az",
+        "state": "AZ",
+        "content": "Apex HVAC meets the unique challenges of serving Buckeye's rapidly expanding exurban communities. As one of Phoenix's fastest-growing areas, we help new residents adapt their HVAC expectations to extreme desert conditions. Many Buckeye homeowners come from cooler climates and need education about proper desert system maintenance. Our services include ",
+        "localContext": "Buckeye's explosive growth brings many newcomers needing education about desert HVAC maintenance.",
+        "nearbyAreas": [
+          "Goodyear",
+          "Tolleson",
+          "Arlington"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "ac-installation": "/images/service-ac-installation.webp",
+      "hvac-maintenance": "/images/service-hvac-maintenance.webp",
+      "duct-cleaning": "/images/service-duct-cleaning.webp",
+      "emergency-repairs": "/images/service-emergency-repairs.webp",
+      "smart-thermostats": "/images/service-smart-thermostats.webp",
+      "indoor-air-quality": "/images/service-indoor-air-quality.webp",
+      "heat-pump-installation": "/images/service-heat-pump-installation.webp"
+    },
+    "servicesResponsive": {
+      "ac-installation": {
+        "src": "/images/service-ac-installation.webp",
+        "srcset": "/images/service-ac-installation-400w.webp 400w, /images/service-ac-installation-800w.webp 800w, /images/service-ac-installation-1200w.webp 1200w, /images/service-ac-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "hvac-maintenance": {
+        "src": "/images/service-hvac-maintenance.webp",
+        "srcset": "/images/service-hvac-maintenance-400w.webp 400w, /images/service-hvac-maintenance-800w.webp 800w, /images/service-hvac-maintenance-1200w.webp 1200w, /images/service-hvac-maintenance.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "duct-cleaning": {
+        "src": "/images/service-duct-cleaning.webp",
+        "srcset": "/images/service-duct-cleaning-400w.webp 400w, /images/service-duct-cleaning-800w.webp 800w, /images/service-duct-cleaning-1200w.webp 1200w, /images/service-duct-cleaning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-repairs": {
+        "src": "/images/service-emergency-repairs.webp",
+        "srcset": "/images/service-emergency-repairs-400w.webp 400w, /images/service-emergency-repairs-800w.webp 800w, /images/service-emergency-repairs-1200w.webp 1200w, /images/service-emergency-repairs.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "smart-thermostats": {
+        "src": "/images/service-smart-thermostats.webp",
+        "srcset": "/images/service-smart-thermostats-400w.webp 400w, /images/service-smart-thermostats-800w.webp 800w, /images/service-smart-thermostats-1200w.webp 1200w, /images/service-smart-thermostats.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "indoor-air-quality": {
+        "src": "/images/service-indoor-air-quality.webp",
+        "srcset": "/images/service-indoor-air-quality-400w.webp 400w, /images/service-indoor-air-quality-800w.webp 800w, /images/service-indoor-air-quality-1200w.webp 1200w, /images/service-indoor-air-quality.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "heat-pump-installation": {
+        "src": "/images/service-heat-pump-installation.webp",
+        "srcset": "/images/service-heat-pump-installation-400w.webp 400w, /images/service-heat-pump-installation-800w.webp 800w, /images/service-heat-pump-installation-1200w.webp 1200w, /images/service-heat-pump-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
